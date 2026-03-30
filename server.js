@@ -14,7 +14,7 @@ mongoose.connect("mongodb://kishan8114270058_db_user:krishna123@ac-hla54ix-shard
   console.log("✅ DB Connected");
 
   app.listen(3000, () => {
-    console.log("🚀 Server running on port 3000");
+    console.log(" Server running on port 3000");
   });
 })
-.catch(err => console.log("❌ DB Error:", err));
+.catch(err => console.log(" DB Error:", err));
